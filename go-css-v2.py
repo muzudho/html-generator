@@ -19,7 +19,6 @@ ID,X,Y,BLOCK
 27,0,0,C
 26,1,0,C
 25,2,0,C
-24,3,0,C
 """
 
 
@@ -49,24 +48,20 @@ ID,GENRE_CODE
 new_df = pa_df.merge(ma_df, left_on='ID', right_on='PARTICIPANT')
 # print(new_df.head(50))
 """
-    ID GENRE_CODE  Participant  Table
+    ID GENRE_CODE  PARTICIPANT  TABLE
 0   30       Blue           30     30
 1    6       Blue            6      6
 2   56       Blue           56     56
-3   50       Blue           50     50
-4   40       Blue           40     40
 """
 
 # Join2
 new2_df = new_df.merge(fl_df, left_on='TABLE', right_on='ID')
 # print(new2_df.head(50))
 """
-    ID_x GENRE_CODE  Participant  Table  ID_y   X  Y BLOCK
+    ID_x GENRE_CODE  PARTICIPANT  TABLE  ID_y   X  Y BLOCK
 0     30       Blue           30     30    30   0  3     C
 1      6       Blue            6      6     6  18  5     A
 2     56       Blue           56     56    56   3  2     F
-3     50       Blue           50     50    50   7  2     E
-4     40       Blue           40     40    40  14  2     D
 """
 
 
@@ -95,21 +90,6 @@ def get_boxes():
 
         x = new2_row["X"]
         y = new2_row["Y"]
-
-        """
-        # Floor map.
-        row2 = fl_df[fl_df["ID"] == id]
-        # print("row2: {}".format(row2))
-
-        x = row2[["X"]].values.tolist()[0][0]
-        print("     x : {}".format(x))
-        # x = int(row2[["X"]].values.tolist())
-        # print("     x : {}".format(x))
-        print("type(x): {}".format(type(x)))
-        # print("x: {}".format(x))
-        y = row2[["Y"]].values.tolist()[0][0]
-        # print("{}={},{}".format(id, x, y))
-        """
 
         width = 16
         height = 16
