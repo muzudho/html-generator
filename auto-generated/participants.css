@@ -2,8 +2,8 @@
 
 #box30 {
     position: absolute;
-    left    :  192px;
-    top     :   16px;
+    left    :    0px;
+    top     :   48px;
     width   :   16px;
     height  :   16px;
     background-color: Blue;
@@ -12,7 +12,7 @@
 #box6 {
     position: absolute;
     left    :  288px;
-    top     :   32px;
+    top     :   80px;
     width   :   16px;
     height  :   16px;
     background-color: Blue;
@@ -20,8 +20,8 @@
             
 #box56 {
     position: absolute;
-    left    :    0px;
-    top     :   16px;
+    left    :   48px;
+    top     :   32px;
     width   :   16px;
     height  :   16px;
     background-color: Blue;
@@ -29,8 +29,8 @@
             
 #box50 {
     position: absolute;
-    left    :   32px;
-    top     :   16px;
+    left    :  112px;
+    top     :   32px;
     width   :   16px;
     height  :   16px;
     background-color: Blue;
@@ -38,8 +38,8 @@
             
 #box40 {
     position: absolute;
-    left    :  112px;
-    top     :   16px;
+    left    :  224px;
+    top     :   32px;
     width   :   16px;
     height  :   16px;
     background-color: Blue;
@@ -47,8 +47,8 @@
             
 #box33 {
     position: absolute;
-    left    :  144px;
-    top     :   32px;
+    left    :   16px;
+    top     :   80px;
     width   :   16px;
     height  :   16px;
     background-color: Blue;
@@ -65,7 +65,7 @@
             
 #box22 {
     position: absolute;
-    left    :   80px;
+    left    :  112px;
     top     :    0px;
     width   :   16px;
     height  :   16px;
@@ -74,7 +74,7 @@
             
 #box17 {
     position: absolute;
-    left    :  160px;
+    left    :  224px;
     top     :    0px;
     width   :   16px;
     height  :   16px;
@@ -83,7 +83,7 @@
             
 #box15 {
     position: absolute;
-    left    :  192px;
+    left    :  256px;
     top     :    0px;
     width   :   16px;
     height  :   16px;
@@ -92,8 +92,8 @@
             
 #box8 {
     position: absolute;
-    left    :  112px;
-    top     :   32px;
+    left    :  304px;
+    top     :   64px;
     width   :   16px;
     height  :   16px;
     background-color: Blue;
@@ -102,7 +102,7 @@
 #box4 {
     position: absolute;
     left    :  256px;
-    top     :   32px;
+    top     :   80px;
     width   :   16px;
     height  :   16px;
     background-color: Blue;
@@ -111,7 +111,7 @@
 #box3 {
     position: absolute;
     left    :  240px;
-    top     :   32px;
+    top     :   80px;
     width   :   16px;
     height  :   16px;
     background-color: Blue;
@@ -119,8 +119,8 @@
             
 #box60 {
     position: absolute;
-    left    :  240px;
-    top     :   16px;
+    left    :   64px;
+    top     :   48px;
     width   :   16px;
     height  :   16px;
     background-color: Blue;
@@ -129,7 +129,7 @@
 #box5 {
     position: absolute;
     left    :  272px;
-    top     :   32px;
+    top     :   80px;
     width   :   16px;
     height  :   16px;
     background-color: Green;
@@ -137,8 +137,8 @@
             
 #box10 {
     position: absolute;
-    left    :  176px;
-    top     :   16px;
+    left    :  304px;
+    top     :   32px;
     width   :   16px;
     height  :   16px;
     background-color: Green;
@@ -146,7 +146,7 @@
             
 #box14 {
     position: absolute;
-    left    :  208px;
+    left    :  272px;
     top     :    0px;
     width   :   16px;
     height  :   16px;
@@ -155,32 +155,14 @@
             
 #box9 {
     position: absolute;
-    left    :   80px;
-    top     :   32px;
+    left    :  304px;
+    top     :   48px;
     width   :   16px;
     height  :   16px;
     background-color: Green;
 }
             
 #box29 {
-    position: absolute;
-    left    :  288px;
-    top     :    0px;
-    width   :   16px;
-    height  :   16px;
-    background-color: Green;
-}
-            
-#box36 {
-    position: absolute;
-    left    :  192px;
-    top     :   32px;
-    width   :   16px;
-    height  :   16px;
-    background-color: Green;
-}
-            
-#box42 {
     position: absolute;
     left    :    0px;
     top     :   32px;
@@ -189,7 +171,43 @@
     background-color: Green;
 }
             
+#box36 {
+    position: absolute;
+    left    :   64px;
+    top     :   80px;
+    width   :   16px;
+    height  :   16px;
+    background-color: Green;
+}
+            
+#box42 {
+    position: absolute;
+    left    :  208px;
+    top     :   48px;
+    width   :   16px;
+    height  :   16px;
+    background-color: Green;
+}
+            
 #box44 {
+    position: absolute;
+    left    :  240px;
+    top     :   48px;
+    width   :   16px;
+    height  :   16px;
+    background-color: Green;
+}
+            
+#box53 {
+    position: absolute;
+    left    :  144px;
+    top     :   48px;
+    width   :   16px;
+    height  :   16px;
+    background-color: Green;
+}
+            
+#box57 {
     position: absolute;
     left    :   32px;
     top     :   32px;
@@ -198,27 +216,9 @@
     background-color: Green;
 }
             
-#box53 {
-    position: absolute;
-    left    :  288px;
-    top     :   16px;
-    width   :   16px;
-    height  :   16px;
-    background-color: Green;
-}
-            
-#box57 {
-    position: absolute;
-    left    :  304px;
-    top     :    0px;
-    width   :   16px;
-    height  :   16px;
-    background-color: Green;
-}
-            
 #box16 {
     position: absolute;
-    left    :  176px;
+    left    :  240px;
     top     :    0px;
     width   :   16px;
     height  :   16px;
@@ -227,7 +227,7 @@
             
 #box20 {
     position: absolute;
-    left    :  112px;
+    left    :  144px;
     top     :    0px;
     width   :   16px;
     height  :   16px;
@@ -245,8 +245,8 @@
             
 #box31 {
     position: absolute;
-    left    :   96px;
-    top     :   32px;
+    left    :    0px;
+    top     :   64px;
     width   :   16px;
     height  :   16px;
     background-color: Yellow;
@@ -254,8 +254,8 @@
             
 #box43 {
     position: absolute;
-    left    :   16px;
-    top     :   32px;
+    left    :  224px;
+    top     :   48px;
     width   :   16px;
     height  :   16px;
     background-color: Yellow;
@@ -263,8 +263,8 @@
             
 #box51 {
     position: absolute;
-    left    :  256px;
-    top     :   16px;
+    left    :  112px;
+    top     :   48px;
     width   :   16px;
     height  :   16px;
     background-color: Yellow;
@@ -272,8 +272,8 @@
             
 #box58 {
     position: absolute;
-    left    :  208px;
-    top     :   16px;
+    left    :   32px;
+    top     :   48px;
     width   :   16px;
     height  :   16px;
     background-color: Yellow;
@@ -281,7 +281,7 @@
             
 #box18 {
     position: absolute;
-    left    :  144px;
+    left    :  208px;
     top     :    0px;
     width   :   16px;
     height  :   16px;
@@ -291,7 +291,7 @@
 #box1 {
     position: absolute;
     left    :  208px;
-    top     :   32px;
+    top     :   80px;
     width   :   16px;
     height  :   16px;
     background-color: Red;
@@ -300,7 +300,7 @@
 #box7 {
     position: absolute;
     left    :  304px;
-    top     :   32px;
+    top     :   80px;
     width   :   16px;
     height  :   16px;
     background-color: Red;
@@ -309,7 +309,7 @@
 #box2 {
     position: absolute;
     left    :  224px;
-    top     :   32px;
+    top     :   80px;
     width   :   16px;
     height  :   16px;
     background-color: Red;
@@ -317,8 +317,8 @@
             
 #box52 {
     position: absolute;
-    left    :  272px;
-    top     :   16px;
+    left    :  128px;
+    top     :   48px;
     width   :   16px;
     height  :   16px;
     background-color: Red;
@@ -326,8 +326,8 @@
             
 #box41 {
     position: absolute;
-    left    :   96px;
-    top     :   16px;
+    left    :  208px;
+    top     :   32px;
     width   :   16px;
     height  :   16px;
     background-color: Red;
@@ -335,8 +335,8 @@
             
 #box37 {
     position: absolute;
-    left    :  160px;
-    top     :   16px;
+    left    :  272px;
+    top     :   32px;
     width   :   16px;
     height  :   16px;
     background-color: Red;
@@ -344,7 +344,7 @@
             
 #box21 {
     position: absolute;
-    left    :   96px;
+    left    :  128px;
     top     :    0px;
     width   :   16px;
     height  :   16px;
@@ -353,7 +353,7 @@
             
 #box12 {
     position: absolute;
-    left    :  240px;
+    left    :  304px;
     top     :    0px;
     width   :   16px;
     height  :   16px;
@@ -362,8 +362,8 @@
             
 #box59 {
     position: absolute;
-    left    :  224px;
-    top     :   16px;
+    left    :   48px;
+    top     :   48px;
     width   :   16px;
     height  :   16px;
     background-color: White;
@@ -371,8 +371,8 @@
             
 #box48 {
     position: absolute;
-    left    :   64px;
-    top     :   16px;
+    left    :  144px;
+    top     :   32px;
     width   :   16px;
     height  :   16px;
     background-color: White;
@@ -380,8 +380,8 @@
             
 #box39 {
     position: absolute;
-    left    :  128px;
-    top     :   16px;
+    left    :  240px;
+    top     :   32px;
     width   :   16px;
     height  :   16px;
     background-color: White;
@@ -398,8 +398,8 @@
             
 #box54 {
     position: absolute;
-    left    :  304px;
-    top     :   16px;
+    left    :  160px;
+    top     :   48px;
     width   :   16px;
     height  :   16px;
     background-color: Orange;
@@ -407,8 +407,8 @@
             
 #box46 {
     position: absolute;
-    left    :   64px;
-    top     :   32px;
+    left    :  272px;
+    top     :   48px;
     width   :   16px;
     height  :   16px;
     background-color: Black;
@@ -434,8 +434,8 @@
             
 #box32 {
     position: absolute;
-    left    :  128px;
-    top     :   32px;
+    left    :    0px;
+    top     :   80px;
     width   :   16px;
     height  :   16px;
     background-color: Orange;
@@ -443,8 +443,8 @@
             
 #box38 {
     position: absolute;
-    left    :  144px;
-    top     :   16px;
+    left    :  256px;
+    top     :   32px;
     width   :   16px;
     height  :   16px;
     background-color: Orange;
@@ -452,8 +452,8 @@
             
 #box35 {
     position: absolute;
-    left    :  176px;
-    top     :   32px;
+    left    :   48px;
+    top     :   80px;
     width   :   16px;
     height  :   16px;
     background-color: Gray;
@@ -461,8 +461,8 @@
             
 #box49 {
     position: absolute;
-    left    :   48px;
-    top     :   16px;
+    left    :  128px;
+    top     :   32px;
     width   :   16px;
     height  :   16px;
     background-color: Gray;
@@ -470,7 +470,7 @@
             
 #box13 {
     position: absolute;
-    left    :  224px;
+    left    :  288px;
     top     :    0px;
     width   :   16px;
     height  :   16px;
@@ -479,8 +479,8 @@
             
 #box34 {
     position: absolute;
-    left    :  160px;
-    top     :   32px;
+    left    :   32px;
+    top     :   80px;
     width   :   16px;
     height  :   16px;
     background-color: Pink;
@@ -488,8 +488,8 @@
             
 #box28 {
     position: absolute;
-    left    :  256px;
-    top     :    0px;
+    left    :    0px;
+    top     :   16px;
     width   :   16px;
     height  :   16px;
     background-color: Pink;
@@ -497,8 +497,8 @@
             
 #box55 {
     position: absolute;
-    left    :   16px;
-    top     :   16px;
+    left    :   64px;
+    top     :   32px;
     width   :   16px;
     height  :   16px;
     background-color: Violet;
@@ -506,7 +506,7 @@
             
 #box19 {
     position: absolute;
-    left    :  128px;
+    left    :  160px;
     top     :    0px;
     width   :   16px;
     height  :   16px;
@@ -515,8 +515,8 @@
             
 #box11 {
     position: absolute;
-    left    :  272px;
-    top     :    0px;
+    left    :  304px;
+    top     :   16px;
     width   :   16px;
     height  :   16px;
     background-color: Purple;
@@ -524,8 +524,8 @@
             
 #box45 {
     position: absolute;
-    left    :   48px;
-    top     :   32px;
+    left    :  256px;
+    top     :   48px;
     width   :   16px;
     height  :   16px;
     background-color: YellowGreen;
@@ -533,8 +533,8 @@
             
 #box47 {
     position: absolute;
-    left    :   80px;
-    top     :   16px;
+    left    :  160px;
+    top     :   32px;
     width   :   16px;
     height  :   16px;
     background-color: Brown;
